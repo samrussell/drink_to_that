@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "*://twitter.com/*", "*://*.twitter.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Don't want to 'like' tweets? Why not raise a glass? Always drink responsibly!",
+   "manifest_version": 2,
+   "name": "Drink to that",
+   "version": "1.0.1",
+   "web_accessible_resources" : [ "images/drink_to_that.png" ]
+}
